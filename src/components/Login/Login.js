@@ -54,6 +54,7 @@ const Login = (props) => {
     //clears the timeOut for every time the function runs
     return () => {
       clearTimeout(ids);
+      
     };
   }, [emailIsValid, passwordIsValid]);
 
