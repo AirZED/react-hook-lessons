@@ -17,7 +17,7 @@ const InputComponent = React.forwardRef((props, ref) => {
   return (
     <div
       className={`${props.className} ${
-        props.isValid ? props.classNameInvalid : ""
+        !props.isValid ? props.classNameInvalid : ""
       }`}
     >
       <label htmlFor={props.inputType}>{props.name}</label>

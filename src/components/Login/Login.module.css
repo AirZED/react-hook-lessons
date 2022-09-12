@@ -43,8 +43,15 @@
   background: #fbdada;
 }
 
+.text-invalid {
+  color: red;
+  font-size: .8em;
+  margin-left: 0em;
+}
+
 .actions {
   text-align: center;
+
 }
 
 @media (min-width: 768px) {
@@ -53,4 +60,7 @@
     flex-direction: row;
   }
 
+  .text-invalid {
+    margin-left: 11em;
+  }
 }
