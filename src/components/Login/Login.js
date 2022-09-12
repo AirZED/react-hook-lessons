@@ -138,7 +138,7 @@ const Login = (props) => {
           ref={passwordRefHandler}
           name={"Password"}
           className={classes.control}
-          classNameInvalid={enteredEmailHasError && classes.invalid}
+          classNameInvalid={enteredPasswordHasError && classes.invalid}
           isValid={passwordIsValid}
           type="password"
           id="password"
